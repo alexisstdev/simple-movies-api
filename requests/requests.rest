@@ -1,0 +1,12 @@
+GET http://localhost:3001/movies
+###
+DELETE http://localhost:3001/movies/2
+###
+POST http://localhost:3001/movies
+content-type: application/json
+
+{
+    "name": "GOT",
+    "category": "History",
+    "id": 4
+}
